@@ -25,24 +25,43 @@
 <body class="user-select-none">
 
     <!-- Navigation Bar -->
+    <div class="offcanvas offcanvas-end offcanvas-md w-50 py-3 px-2" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasRightLabel">BCR</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body py-0">
+            <nav class="nav flex-column d-inline-flex">
+                <a class="nav-link px-0 link-dark" href="#OurServices">Our Services</a>
+                <a class="nav-link px-0 link-dark" href="#WhyUs">Why Us</a>
+                <a class="nav-link px-0 link-dark" href="#Testimonial">Testimonial</a>
+                <a class="nav-link px-0 link-dark" href="#FAQ">FAQ</a>
+                <a class="nav-link btn-success text-white fw-bold py-2 px-2-5 rounded-1 ms-0 d-inline" href="#">Register</a>
+            </nav>
+        </div>
+    </div>
+    
     <nav class="navbar sticky-top py-4 bg-marshmallow-crème">
         <div class="container">
             <a class="navbar-brand text-white px-3 rounded-1 me-0" href="#">BinarCarRental</a>
             <ul class="nav justify-content-end fw-medium">
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link link-dark" href="#OurServices">Our Services</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link link-dark" href="#WhyUs">Why Us</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link link-dark" href="#Testimonial">Testimonial</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link link-dark" href="#FAQ">FAQ</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link btn-success text-white fw-bold py-2 px-2-5 rounded-1" href="#">Register</a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <button class="btn p-0 m-0 border-0 lh-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars fs-1"></i></button>
                 </li>
             </ul>
         </div>
