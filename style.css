@@ -63,6 +63,40 @@ button.owl-next:hover {
     padding: 85px 0;
 }
 
+@media only screen and (max-width: 320px) {
+    .py-85 {
+        padding-top: 0px;
+        padding-bottom: 190px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .py-85 {
+        padding-top: 0px;
+        padding-bottom: 220px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 430px) {
+    .py-85 {
+        padding-top: 0px;
+        padding-bottom: 250px;
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 575px) {
+    .py-85 {
+        padding-top: 0px;
+        padding-bottom: 330px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1199px) {
+    .py-85 {
+        padding: 30px 0px;
+    }
+}
+
 
 /* bg-primary */
 .bg-primary {
